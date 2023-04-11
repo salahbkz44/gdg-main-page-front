@@ -252,9 +252,14 @@ h6{
 /*responsivnesss*/
 
 @media (max-width:767px){
-    body{
+    body,html{
     overflow-x: hidden;
     }
+    
+    body{
+        position: relative;
+    }
+    
     h6{
         font-size: 1.5vw;
     }
