@@ -417,4 +417,9 @@ h6{
             padding-top: 0.5vw;
             padding-bottom: 0.5vw;
                 }
+               .bg-image {
+                    position: absolute;
+                    width: 120%;
+                    z-index: -1;
+                }
 }
