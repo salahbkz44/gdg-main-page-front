@@ -1,0 +1,420 @@
+/*general*/
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h6{
+    font-size: 1.2vw;
+    margin-bottom: 0.45vw;
+}
+
+/*home section*/
+
+.bg-image{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+/*nav bar section*/
+
+.nav-bar{
+    background-color: white;
+    height: 100%;
+    width: 100px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    position: fixed;
+    box-shadow: 0px 0px 50px -12px rgba(58, 57, 57, 0.84);;
+    padding: 0%;
+}
+
+.gdg-logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.625rem;
+    flex-wrap: nowrap;
+    width: 4.063rem;
+    filter: invert(80%) sepia(42%) saturate(7492%) hue-rotate(237deg) brightness(140%) contrast(100%);
+}
+
+.click {
+    background-color: #3C72DF;
+    border-radius: 50%;
+    height: 3.125rem;
+    width: 3.125rem;
+    position: absolute;
+    left: 1.563rem;
+    z-index: -1;
+    box-shadow: 10px 6px 20px -10px rgba(0, 0, 0, 0.89);
+}
+
+.nav-child{
+    margin: auto;
+    margin-top: 8.125rem;
+}
+
+.nav-links {
+    border-radius: 50%;
+    height: 2.813rem;
+    width: 2.813rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 3.125rem;
+}
+
+.contact{
+    margin-left:1.438rem;
+}
+
+.nav-links img {
+    width: 1.563rem;
+}
+
+.nav-bar h4,.nav-bar a{
+    margin-top: 0;
+    text-decoration: none;
+    color: #2D3DDF;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    font-weight:900;
+}
+
+.clicked h4{
+    color: white;
+}
+
+/*home*/
+.home-class{
+    color: white;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.home-logo{
+    width: 12.5vw;
+    margin-bottom: 1.25vw;
+}
+
+.main-home{
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    margin-top: 3.125vw;
+    margin-left: 6.25vw;
+}
+
+.main-home h1{
+    line-height: 1.04;
+    font-size: 3vw;
+    font-weight: 900;
+    width: 37.5vw;
+}
+
+.main-home p{
+    width: 43.75vw;
+    font-size: 0.9vw;
+}
+
+.location{
+    display: flex;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 18.75vw;
+    height: 3.438vw;
+}
+.location img{
+    height: 1.25vw;
+    margin: 0.375vw;
+    margin-left: 0.625vw;
+}
+
+.location div{
+    margin-left: 0.688vw;
+    margin-top: 0.313vw;
+}
+
+.date{
+    margin-top: 0.625vw;
+    display: flex;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 18.75vw;
+    height: 2.5vw;
+}
+
+.date img {
+    height: 1.25vw;
+    margin: 0.375vw;
+    margin-left: 0.625vw;
+}
+
+.date div {
+    margin-left: 0.688vw;
+    margin-top: 0.5vw;
+}
+
+.btn{
+    margin-top: 1.5vw;
+    margin-left: 3vw;
+    width: 10vw;
+    font-size: 1.25vw;
+    padding-top:0.5vw ;
+    padding-bottom: 0.5vw;
+}
+
+/*events-section*/
+
+#events-section{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25vw;
+}
+
+#events-section p{
+    color: #6B6969;
+    font-size: 0.938vw;
+    text-align: left;
+    margin: 0 1.875vw;
+}
+
+.between-section-heading{
+    font-size: 3.125vw;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 3vw;
+    text-align: center;
+    margin-left: 100px;
+}
+
+
+.events{
+    border-radius: 1.063vw;
+    background-color: rgb(255, 255, 255);
+    height: 23.125vw;
+    width: 16.875vw;
+    padding-top: 1.25vw;
+    box-shadow: 0px 17px 35px 0px rgba(73, 72, 72, 0.25);
+    margin: 1.875vw 3.75vw;
+    text-align: center;
+}
+
+.events img{
+    width: 12.5vw;
+}
+
+.event-text{
+    text-align: left;
+}
+
+.event-title{
+    text-align: center;
+    margin: 1.33vw 0;
+    font-size: 1.5vw;
+}
+
+/*About us section*/
+#aboutus-section{
+    text-align: center;
+}
+
+.aboutus-text {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    color: #6B6969;
+    font-size: 1.25vw;
+}
+
+.text{
+    margin-left: 100px;
+}
+
+
+/*placeholders*/
+
+.placeholder1{
+    width: 100%;
+    height: 31.25vw;
+}
+
+.placeholder2{
+    width: 100%;
+    height: 18.75vw;
+}
+
+/*responsivnesss*/
+
+@media (max-width:767px){
+    h6{
+        font-size: 1.5vw;
+    }
+.nav-bar {
+    background-color: white;
+    width: 100%;
+    height: 15vw;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    box-shadow: 0px 0px 50px -12px rgba(58, 57, 57, 0.84);
+    display: flex;
+    flex-direction: row;
+
+    }
+        .gdg-logo {
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: 1.5vw;
+            flex-wrap: nowrap;
+            width: 12vw;
+            filter: invert(80%) sepia(42%) saturate(7492%) hue-rotate(237deg) brightness(140%) contrast(100%);
+        }
+        .nav-child {
+            margin: auto;
+            margin-right: 0.3vw;
+            display: flex;
+            flex-direction: row;
+            position: relative;
+        }
+        .nav-links {
+            border-radius: 50%;
+            height: 11vw;
+            width: 11vw;
+            margin: auto;
+            text-align: center;
+            margin-left: 4vw;
+        }
+        .nav-links img {
+            width: 5vw;
+        }
+        .nav-bar h4,
+        .nav-bar a {
+            margin-top: 0;
+            text-decoration: none;
+            color: #2D3DDF;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-size: 2vw;
+            font-weight: 900;
+        }
+        .clicked h4 {
+            color: white;
+        }
+        .click {
+            background-color: #3C72DF;
+            border-radius: 50%;
+            height: 10vw;
+            width: 10vw;
+            position: absolute;
+            left: 4.5vw;
+            z-index: -1;
+            box-shadow: 10px 6px 20px -10px rgba(0, 0, 0, 0.89);
+        }
+        .text{
+            margin-left: 0;
+        }
+        .between-section-heading{
+            margin-left: 0;
+        }
+        .home-class{
+            margin-left: 0;
+        }
+        body{
+            padding-bottom: 18vw;
+        }
+        .home-logo {
+            width: 18vw;
+            margin-bottom: 1vw;
+        }
+        #events-section p {
+            color: #6B6969;
+            font-size: 1.4vw;
+            text-align: left;
+            margin: 0 1.875vw;
+        }
+        .events {
+            border-radius: 1.063vw;
+            background-color: rgb(255, 255, 255);
+            height: 30vw;
+            width: 22vw;
+            padding-top: 1.4vw;
+            box-shadow: 0px 17px 35px 0px rgba(73, 72, 72, 0.25);
+            margin: 1.875vw 3.75vw;
+            text-align: center;
+        }
+        .events img {
+            width: 16vw;
+        }
+        .event-title {
+            text-align: center;
+            margin: 1.5vw 0;
+            font-size: 2.3vw;
+        }
+        .aboutus-text {
+            text-align: center;
+            margin: 0 auto;
+            font-family: 'Roboto', sans-serif;
+            color: #6B6969;
+            font-size: 2.5vw;
+        }
+        .main-home h1 {
+            line-height: 1;
+            font-size: 5vw;
+            font-weight: 900;
+            width: 80vw;
+        }
+        .main-home p {
+            width: 80vw;
+            font-size: 1.2vw;
+        }
+
+        .details{
+            width: 50vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 4vw;
+        }
+
+        .location {
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+            background-color: rgba(255, 255, 255, 0.1);
+            width: 25vw;
+            height: 4vw;
+        }
+        .date {
+            display: flex;
+            position: relative;
+            top: -0.65vw;
+            background-color: white;
+            background-color: rgba(255, 255, 255, 0.1);
+            width: 20vw;
+            height: 4vw;
+        }
+        .location img {
+            height: 1.7vw;
+            margin-top: 0.625vw;
+        }
+        .location-text {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-left: 0.688vw;
+            margin-top: 0.313vw;
+        }
+        .btn {
+            margin-top: 5vw;
+            margin-left: 55vw;
+            width: 15vw;
+            font-size: 1.25vw;
+            padding-top: 0.5vw;
+            padding-bottom: 0.5vw;
+                }
+}
