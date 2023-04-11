@@ -431,7 +431,7 @@ h6{
                 }
                .bg-image {
                     position: absolute;
-                    width: 350%;
+                    width: 200%;
                     z-index: -1;
                    left:1vw;
                 }
