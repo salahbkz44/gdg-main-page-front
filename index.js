@@ -4,22 +4,22 @@ let query=window.matchMedia("(max-width:767px)");
 if(query.matches)
 {
     $('.home').click(function () {
-        $('.click').animate({ left: '4.5vw'})
+        $('.click').animate({ left: '4.5vw', bottom: '-0.7vw' })
         home()
     })
     $('.event').click(function () {
-        $('.click').animate({ left: '19.5vw'})
+        $('.click').animate({ left: '19.5vw', bottom: '-0.7vw' })
         events()
 
     })
     $('.contact').click(function () {
-        $('.click').animate({ left: '34.5vw'})
+        $('.click').animate({ left: '34.5vw', bottom: '-0.7vw' })
 
         contact()
 
     })
     $('.heart').click(function () {
-        $('.click').animate({ left: '49.5vw'})
+        $('.click').animate({ left: '49.5vw',bottom:'-0.7vw'})
         heart()
 
     })
