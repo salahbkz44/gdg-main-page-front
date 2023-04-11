@@ -1,4 +1,8 @@
 /*general*/
+body{
+    overflow-x: hidden;
+}
+
 a{
     text-decoration: none;
     color: white;
