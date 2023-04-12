@@ -236,6 +236,93 @@ h6{
     margin-left: 100px;
 }
 
+.aboutsetif{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    position: relative;
+}
+
+.style-img{
+    width: 30vw;
+    position: absolute;
+    z-index: -1;
+    top: auto;
+    bottom: auto;
+}
+
+.abts{
+    height: 30vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5vw;
+    margin-left: 15vw;
+}
+
+.setif-text{
+    margin-left: 3vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+}
+
+.setif-text h2{
+    margin-bottom: 3vw;
+    width: 27vw;
+    font-size: 2.3;
+}
+
+.setif-text p{
+    font-size: 1.1vw;
+    font-family: 'Roboto', sans-serif;
+    color: #6B6969;
+}
+
+/*contact section*/
+
+.contact-parent{
+    display: flex;
+    width: 25vw;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+    padding-left: 100px;
+    padding-bottom: 5vw;
+}
+
+.contact-parent img{
+    width: 2.5vw;
+}
+
+/*admin button*/
+.edit-btn{
+    height: 2.5vw;
+    width: 5vw;
+    margin-top: 1.5vw;
+    margin-left: 0;
+    font-size: 0.8vw;
+    font-weight: 900;
+    padding-top: 0.65vw;
+    padding-right: 0.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 0.3vw;
+}
+
+.edit-btn img{
+    width: 1.3vw;
+    margin: auto;
+    margin-left: 0vw;
+}
+
+.edit-btn:hover img{
+    filter: brightness(0);
+}
 
 /*placeholders*/
 
@@ -252,14 +339,6 @@ h6{
 /*responsivnesss*/
 
 @media (max-width:767px){
-    body,html{
-    overflow-x: hidden;
-    }
-    
-    body{
-        position: relative;
-    }
-    
     h6{
         font-size: 1.5vw;
     }
@@ -428,11 +507,11 @@ h6{
             font-size: 1.25vw;
             padding-top: 0.5vw;
             padding-bottom: 0.5vw;
-                }
-               .bg-image {
+        }
+                .bg-image {
                     position: absolute;
-                    width: 200%;
+                    width: 120%;
                     z-index: -1;
-                   left:1vw;
+                    right: 0.1vw;
                 }
 }
