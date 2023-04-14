@@ -5,7 +5,7 @@ if(query.matches)
 {
     $('.1').text("International women");
     $('.1').after("<h1 class='2'>day event</h1>");
-    $('.col-4').attr("class","col-12")
+    $('.col-4').attr("class","col-12");
 
     $('.home').click(function () {
         $('.click').animate({ left: '4.5vw', bottom: '-0.7vw' })
