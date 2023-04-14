@@ -465,9 +465,9 @@ h6{
         .main-home h1 {
             text-align: center;
             line-height: 1.5;
-            font-size: 3.5rem;
+            font-size: 3.2rem;
             font-weight: 900;
-            width: 90vw;
+            width: 100%;
             margin: auto;
         }
         .main-home p {
@@ -562,7 +562,7 @@ h6{
         }
                 .bg-image {
                     position: absolute;
-                    width: 450vw;
+                    width: 500vw;
                     z-index: -1;
                     left: -200vw;
                 }
@@ -613,5 +613,4 @@ h6{
         .contact-parent img {
             width: 11vw;
         }
-}
 }
