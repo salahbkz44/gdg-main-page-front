@@ -10,7 +10,7 @@ a{
 
 h6{
     font-size: 1.2vw;
-    margin-bottom: 0.45vw;
+    margin: 0;
 }
 
 /*home section*/
@@ -33,6 +33,7 @@ h6{
     position: fixed;
     box-shadow: 0px 0px 50px -12px rgba(58, 57, 57, 0.84);;
     padding: 0%;
+    z-index: 2;
 }
 
 .gdg-logo {
@@ -137,7 +138,7 @@ h6{
     margin-left: 0.625vw;
 }
 
-.location div{
+.location-text{
     margin-left: 0.688vw;
     margin-top: 0.313vw;
 }
@@ -271,7 +272,7 @@ h6{
 .setif-text h2{
     margin-bottom: 3vw;
     width: 27vw;
-    font-size: 2.3;
+    font-size: 2.3vw;
 }
 
 .setif-text p{
@@ -340,7 +341,8 @@ h6{
 
 @media (max-width:767px){
     h6{
-        font-size: 1.5vw;
+        font-size: 6vw;
+        text-align: left;
     }
 .nav-bar {
     background-color: white;
@@ -407,7 +409,7 @@ h6{
             box-shadow: 10px 6px 20px -10px rgba(0, 0, 0, 0.89);
         }
         .text{
-            margin-left: 0;
+            margin:auto 0;
         }
         .between-section-heading{
             margin-left: 0;
@@ -419,32 +421,33 @@ h6{
             padding-bottom: 18vw;
         }
         .home-logo {
-            width: 18vw;
-            margin-bottom: 1vw;
+            width: 45vw;
+            margin: 8vw;
+            margin-bottom: 3vw;
         }
         #events-section p {
-            color: #6B6969;
-            font-size: 1.4vw;
+            color: #9f9898;
+            font-size: 5vw;
             text-align: left;
-            margin: 0 1.875vw;
+            margin: 10vw 10vw 5vw;
         }
         .events {
-            border-radius: 1.063vw;
+            border-radius: 5vw;
             background-color: rgb(255, 255, 255);
-            height: 30vw;
-            width: 22vw;
-            padding-top: 1.4vw;
+            height: 120vw;
+            width: auto;
             box-shadow: 0px 17px 35px 0px rgba(73, 72, 72, 0.25);
-            margin: 1.875vw 3.75vw;
+            margin:3.75vw auto;
             text-align: center;
         }
         .events img {
-            width: 16vw;
+            width: 60vw;
+            margin-top: 8vw;
         }
         .event-title {
             text-align: center;
-            margin: 1.5vw 0;
-            font-size: 2.3vw;
+            margin: 6vw 0;
+            font-size: 10vw;
         }
         .aboutus-text {
             text-align: center;
@@ -453,23 +456,35 @@ h6{
             color: #6B6969;
             font-size: 2.5vw;
         }
+
         .main-home h1 {
-            line-height: 1;
-            font-size: 5vw;
+            text-align: center;
+            line-height: 1.5;
+            font-size: 3.5rem;
             font-weight: 900;
-            width: 80vw;
+            width: 90vw;
+            margin: auto;
         }
         .main-home p {
-            width: 80vw;
-            font-size: 1.2vw;
+            width: 90vw;
+            font-size: 1.1rem;
+            text-align: center;
+            margin: auto;
+            margin-top: 4vw;
+        }
+
+        .main-home{
+            margin: 0;
         }
 
         .details{
-            width: 50vw;
+            width: 70vw;
+            margin: auto;
+            margin-top: 10vw;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: space-between;
-            height: 4vw;
+            align-items: center;
         }
 
         .location {
@@ -477,41 +492,120 @@ h6{
             flex-direction: row;
             background-color: white;
             background-color: rgba(255, 255, 255, 0.1);
-            width: 25vw;
-            height: 4vw;
+            width: 60vw;
+            height: 12vw;
+            margin-bottom: 3vw;
         }
         .date {
             display: flex;
-            position: relative;
-            top: -0.65vw;
             background-color: white;
             background-color: rgba(255, 255, 255, 0.1);
-            width: 20vw;
-            height: 4vw;
+            width: 60vw;
+            height: 8vw;
         }
-        .location img {
-            height: 1.7vw;
-            margin-top: 0.625vw;
+
+        .date div{
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: 2vw;
+        }
+
+        .date h6{
+            font-size: 5vw;
+            margin: auto;
+        }
+
+        .details img {
+            height: 5vw;
+            margin: 2vw;
+            margin-left: 1vw;
         }
         .location-text {
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            margin-left: 0.688vw;
-            margin-top: 0.313vw;
+            margin: auto;
         }
+
+        .location-text h6{
+            display: inline-block;
+        }
+
+        .location-text p{
+            display: inline-block;
+            font-size: 3.5vw;
+            margin: 0;
+            width: auto;
+            text-align: center;
+        }
+
+        .button-holder{
+            display: flex;
+            align-items: center;
+        }
+
         .btn {
-            margin-top: 5vw;
-            margin-left: 55vw;
-            width: 15vw;
-            font-size: 1.25vw;
-            padding-top: 0.5vw;
-            padding-bottom: 0.5vw;
+            margin: auto;
+            margin-top: 15vw;
+            width: 50vw;
+            font-size: 5vw;
+            padding-top: 2vw;
+            padding-bottom: 2vw;
+            font-weight: 600;
+            letter-spacing: 1vw;
+            text-align: center;
         }
                 .bg-image {
                     position: absolute;
-                    width: 120%;
+                    width: 450vw;
                     z-index: -1;
-                    right: 0.1vw;
+                    left: -200vw;
                 }
+        .between-section-heading {
+            font-size: 10vw;
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 10vw;
+            text-align: center;
+        }
+        .placeholder1 {
+            width: 100%;
+            height: 45vw;
+        }
+        .aboutus-text {
+            text-align: left;
+            font-size: 5vw;
+        }
+        .aboutsetif {
+            flex-direction: column;
+            margin-left: 0;
+            margin-top: 5vw;
+        }
+        .abts {
+            height: auto;
+            width: 50vw;
+            margin-left: 30vw;
+            margin-bottom: 2vw;
+        }
+        .style-img {
+            width: auto;
+            height: 60vw;
+        }
+        .setif-text p {
+            font-size: 5vw;
+        }
+        .setif-text h2 {
+            margin-bottom: 3vw;
+            width: auto;
+            font-size: 7vw;
+        }
+        .contact-parent {
+            width: 70vw;
+            margin-top: 4vw;
+            padding-left: 0;
+            padding-bottom: 5vw;
+        }
+    
+        .contact-parent img {
+            width: 11vw;
+        }
 }
