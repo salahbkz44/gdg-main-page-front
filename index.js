@@ -1,11 +1,10 @@
 
-
 let query=window.matchMedia("(max-width:767px)");
 if(query.matches)
 {
     $('.1').text("International women");
     $('.1').after("<h1 class='2'>day event</h1>");
-    $('.col-4').attr("class","col-12");
+    $('.events').attr("class","col-12 events")
 
     $('.home').click(function () {
         $('.click').animate({ left: '4.5vw', bottom: '-0.7vw' })
@@ -121,18 +120,6 @@ if(query.matches)
         $('.contact img').attr("src", "images/contact-icon-white.png")
         $('.heart img').attr("src", "images/heart-icon-blue.png")
     }
-
-    function heart() {
-        $('.heart').attr("class", "clicked heart nav-links");
-        $('.event').attr("class", "event nav-links");
-        $('.contact').attr("class", "contact nav-links");
-        $('.home').attr("class", "home nav-links");
-        $('.home img').attr("src", "images/home-icon-blue.png")
-        $('.event img').attr("src", "images/event-icon-blue.png")
-        $('.contact img').attr("src", "images/contact-icon-blue.png")
-        $('.heart img').attr("src", "images/heart-icon-white.png")
-    }
-}
 
     function heart() {
         $('.heart').attr("class", "clicked heart nav-links");
