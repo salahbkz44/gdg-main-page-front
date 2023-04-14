@@ -577,6 +577,9 @@ h6{
             height: 45vw;
         }
         .aboutus-text {
+            margin-left: auto;
+            margin-right: auto;
+            width: 75vw;
             text-align: left;
             font-size: 5vw;
         }
@@ -595,6 +598,13 @@ h6{
             width: auto;
             height: 60vw;
         }
+
+        .setif-text{
+            width: 75vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
         .setif-text p {
             font-size: 5vw;
         }
