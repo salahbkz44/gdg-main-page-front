@@ -7,22 +7,22 @@ if(query.matches)
     $('.events').attr("class","col-12 events")
 
     $('.home').click(function () {
-        $('.click').animate({ left: '4.5vw', bottom: '-0.7vw' })
+        $('.click').animate({ left: '4.5vw'})
         home()
     })
     $('.event').click(function () {
-        $('.click').animate({ left: '19.5vw', bottom: '-0.7vw' })
+        $('.click').animate({ left: '19.5vw'})
         events()
 
     })
     $('.contact').click(function () {
-        $('.click').animate({ left: '34.5vw', bottom: '-0.7vw' })
+        $('.click').animate({ left: '34.5vw'})
 
         contact()
 
     })
     $('.heart').click(function () {
-        $('.click').animate({ left: '49.5vw',bottom:'-0.7vw'})
+        $('.click').animate({ left: '49.5vw'})
         heart()
 
     })
